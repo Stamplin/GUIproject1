@@ -51,6 +51,7 @@ namespace guip1
         private void goodButton_Click(object sender, EventArgs e)
         {
             goodBox.Visible = true;
+            Badbox.Visible = false;
         }
 
         private void picBox_Click(object sender, EventArgs e)
@@ -67,6 +68,7 @@ namespace guip1
         {
 
             Badbox.Visible = true;
+            goodBox.Visible = false;
         }
     }
 }
